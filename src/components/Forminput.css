@@ -1,0 +1,23 @@
+.ip{
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    width: 250px;
+}
+input{
+    padding: 13px;
+    margin: 3px 0px;
+    border-color: rgba(0, 0, 0, 0.5);
+}
+label{
+    color: whitesmoke;
+}
+span{
+    color: red;
+    font-size: 12px;
+    padding: 1px;
+    display: none;
+}
+input:invalid ~ span{
+    display: block;
+}

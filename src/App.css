@@ -1,0 +1,39 @@
+body{
+  background: url("https://wallpaperaccess.com/full/803.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h2{
+  color: whitesmoke;
+  text-align: center;
+}
+form{
+  background-color: transparent;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  padding: 0px 40px;
+}
+button{
+  width: 85%;
+  height: 45px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+::placeholder{
+  color: whitesmoke;
+}
+input{
+  background-color: transparent;
+}
